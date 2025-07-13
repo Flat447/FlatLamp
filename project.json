@@ -1,0 +1,27 @@
+{
+  "name": "FlatLamp",
+  "about": "Прошивка для GyverLamp основаная на FieryLedLamp",
+  "version": "1.0",
+  "notes": "1 релиз",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/Flat447/FlatLamp/refs/heads/main/bin/esp8266/firmware_I.bin",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/Flat447/FlatLamp/refs/heads/main/bin/esp32/firmware_I.bin",
+          "offset": 0
+        }
+      ]
+    }
+
+  ]
+}
