@@ -1,7 +1,7 @@
 {
   "name": "FlatLamp",
   "about": "Прошивка для GyverLamp основаная на FieryLedLamp",
-  "version": "1.0",
+  "version": "0.1",
   "notes": "1 релиз",
   "builds": [
     {
